@@ -11,6 +11,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding-left: 1em;
+  background-color: lightgray;
   padding-right: 1em;
   display: flex;
   -webkit-justify-content: center;
@@ -18,7 +19,8 @@ body {
   justify-content: center;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column; 
+}
 
 .home-page{
    margin-top: 30px;
@@ -55,7 +57,7 @@ section{
 
 .home-page .dev-links li a {
   padding: 5px 10px;
-  background: #fff;
+  background: #000;
   color: red;
   font-size: 20px;
   cursor: pointer;
