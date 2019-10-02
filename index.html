@@ -1,33 +1,119 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Catergos</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-</head>
-<body class="home-page">
-	<img class="header-logo" alt="Catergos logo" src="assets/images/logo.png">
-    <section>
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
 
-    <p class="heading-text">CATERGOS - THE CAT OPERATING SYSTEM</p>
+    <link rel="stylesheet" href="./static/css/style.css" />
 
-    <p class="description">
-    What are cats? Nothing but small, cute form of beasts like lion and tigers!
-    Inspired from the difference, Catergos is a desktop linux which is a beautiful desktop OS, but is a beast in itself!</p>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
 
-	</section>
+    <!-- Latest compiled and minified Bootstrap JavaScript -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./static/js/main.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <img style="height: 50px;" src="./assets/images/logo.png" alt="" />
+        </div>
 
-	<section class='dev-links'>
-      <ul>
-        <li><a href="https://github.com/Catergos/catergos-iso/releases" target="_blank">Download ISO</a></li>
-        <li><a href="https://github.com/catergos" target="_blank">Developer Section</a></li>
-      </ul>
-    </section>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a target="_blank" href="https://github.com/catergos"
+                >Developer</a
+              >
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/Catergos/catergos-iso"
+                >Get Involved</a
+              >
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right"></ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <div class="container-fluid">
+      <div id="hero" class="col-sm-12 flexBox">
+        <div class="col-sm-6">
+          <h1 id="main-heading">CATERGOS - The cat operating system</h1>
+          <!-- <h2 class="sub-heading">
+            The cat operating system
+            (some more content bla,bla,bla... Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Architecto,
+            dolore.) <br />
+            P.S. - The onigiri operating system 
+          </h2> -->
+          <h2 id="sub-heading">
+            What are cats? Nothing but small, cute form of beasts like lion and
+            tigers! Inspired from the difference, Catergos is a desktop linux
+            which is a beautiful desktop OS, but is a beast in itself!
+          </h2>
+          <button class="btn btn-lg btn-success downloadIso">
+            Download ISO
+          </button>
+        </div>
+        <div class="col-sm-6">
+          <img style="width:100%" src="./assets/images/logo.png" alt="" />
+        </div>
+      </div>
 
-</body>
+      <div class="col-sm-12 content">
+        <h2 class="text-center heading">Features</h2>
+        <div class="col-sm-4 text-center">
+          <h3>Fast</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sunt
+            inventore vitae exercitationem sapiente accusantium ad dolor
+            perferendis quaerat sequi!
+          </p>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h3>
+            Open Source
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sunt
+            inventore vitae exercitationem sapiente accusantium ad dolor
+            perferendis quaerat sequi!
+          </p>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h3>
+            Safe & Secure
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sunt
+            inventore vitae exercitationem sapiente accusantium ad dolor
+            perferendis quaerat sequi!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
